@@ -1,4 +1,4 @@
-# conf2025 Demo: Splunk Ecommerce Transactions Summary Index and KV Store performance
+# conf2025 Demo: Summary Index and KV Store performance
 
 This demo provides visualizations to compare performance between searching raw event data compared to using a summary index and KV Store lookups.
 It simulates customer purchase and order fulfillment logs for Splunk using a Python script and configuration files. You can run the demo using Docker Compose or a standalone Docker container.
