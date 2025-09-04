@@ -9,6 +9,6 @@ services:
       - SPLUNK_START_ARGS=--accept-license
       - SPLUNK_PASSWORD=helloworld
     volumes:
-      - ./app:/opt/splunk/etc/apps/demo_app
+      - ./app:/opt/splunk/etc/apps/conf25_demo_app
     ports:
       - 8000:8000
